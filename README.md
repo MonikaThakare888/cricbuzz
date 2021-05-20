@@ -1,4 +1,4 @@
-# Animal adoption portal: API
+# Cricbuzz
 
 To start contributing, clone this project into your local directory and open with IntelliJ Idea.
 
@@ -32,14 +32,4 @@ https://dev.mysql.com/downloads/workbench/
 
 Mysql cheatsheet:
 https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3
-
-Steps to set up the database for running animalRequest-peers api:
-
-1. Log in to mysql as a root user: `mysql -u root -p`
-2. Create a user by the name 'animalpeers' & password 'animalpeers' in mysql: 
-`CREATE USER 'animalpeers'@'localhost' IDENTIFIED BY 'animalpeers';`
-3. Grant all permissions to this user:
-`GRANT ALL PRIVILEGES ON * . * TO 'animalpeers'@'localhost';`
-4. You can optionally create a new connection in Workbench with the same username & password.
-5. Run database migration command:`./gradlew update` 
 
